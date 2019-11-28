@@ -378,6 +378,7 @@
   .opinionsAndEditorsPicks .editorsPicks #topPick p {
     grid-column: 1/2;
     grid-row: 2/3;
+    padding-right: 20px;
   }
 }
 @media screen and (max-width: 740px) {
@@ -555,6 +556,7 @@
   }
   .mainSection .opinionsAndEditorsPicks .editorsPicks #topPick p {
     font-size: 17px;
+    padding-right: 0px;
   }
   .mainSection .opinionsAndEditorsPicks .editorsPicks .smallStory {
     margin-top: 0px;
