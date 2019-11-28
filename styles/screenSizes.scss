@@ -26,6 +26,9 @@
       min-width: 180px;
       .opinionsContainer {
         min-width: 0;
+        .subOpinions #rightColumn {
+          margin-left: 0px;
+        }
       }
       .editorsPicks {
         #topPick {
@@ -55,7 +58,7 @@
 
 //*********************************** SCREEN WIDTH: 1025px ***********************************
 
-  $opinionsGridSpacingRow: 367px 100px 100px 100px; //152px each 467
+  $opinionsGridSpacingRow: 367px 90px 90px 90px; //152px each 467
   $opinionsGridSpacingColumn: repeat(6, 16.5%); // 156px 
   //1025 screen size 50 in padding 
 

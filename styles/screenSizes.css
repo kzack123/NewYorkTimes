@@ -22,6 +22,9 @@
   .opinionsAndEditorsPicks .opinionsContainer {
     min-width: 0;
   }
+  .opinionsAndEditorsPicks .opinionsContainer .subOpinions #rightColumn {
+    margin-left: 0px;
+  }
   .opinionsAndEditorsPicks .editorsPicks #topPick h3 {
     font-size: 20px;
   }
@@ -169,14 +172,14 @@
   .opinionsAndEditorsPicks .opinionsContainer {
     display: grid;
     grid-template-columns: repeat(6, 16.5%);
-    grid-template-rows: 367px 100px 100px 100px;
+    grid-template-rows: 367px 90px 90px 90px;
   }
   .opinionsAndEditorsPicks .opinionsContainer #topOpinion {
     grid-column: 1/7;
     grid-row: 1/5;
     display: grid;
     grid-template-columns: repeat(6, 16.5%);
-    grid-template-rows: 367px 100px 100px 100px;
+    grid-template-rows: 367px 90px 90px 90px;
   }
   .opinionsAndEditorsPicks .opinionsContainer #topOpinion .contents:first-child::after {
     content: "";
@@ -202,7 +205,7 @@
     grid-row: 1/5;
     display: grid;
     grid-template-columns: repeat(6, 16.5%);
-    grid-template-rows: 367px 100px 100px 100px;
+    grid-template-rows: 367px 90px 90px 90px;
     margin-top: 0px;
   }
   .opinionsAndEditorsPicks .opinionsContainer .subOpinions .contents :first-child {
@@ -241,7 +244,7 @@
     grid-row: 1/5;
     display: grid;
     grid-template-columns: repeat(6, 16.5%);
-    grid-template-rows: 367px 100px 100px 100px;
+    grid-template-rows: 367px 90px 90px 90px;
   }
   .opinionsAndEditorsPicks .opinionsContainer .subOpinions .leftColumn :first-child {
     grid-column: 4/7;
@@ -291,7 +294,7 @@
     grid-row: 1/5;
     display: grid;
     grid-template-columns: repeat(6, 16.5%);
-    grid-template-rows: 367px 100px 100px 100px;
+    grid-template-rows: 367px 90px 90px 90px;
   }
   .opinionsAndEditorsPicks .opinionsContainer .subOpinions .rightColumn .contentsImg {
     width: 35px;
