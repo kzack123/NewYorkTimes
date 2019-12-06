@@ -18,7 +18,6 @@ $libreFranklin: 'Libre Franklin';
     justify-content: $justify;
 }
 
-
 //***** Reset *****
 *, body {
     margin: 0px;
@@ -514,13 +513,16 @@ $libreFranklin: 'Libre Franklin';
 
             img {
                 width: 100%;
-                height: 85%;
+                //height: 85%;
             }
             h4 {
                 font-size: 18px;
                 font-family: $domine;
                 padding-bottom: 8px;
                 font-weight: 700;
+            }
+            li {
+                list-style: none;
             }
             li, p {
                 font-size: 16px;

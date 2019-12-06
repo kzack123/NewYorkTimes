@@ -455,13 +455,15 @@
 }
 .mainSection .topStories section img {
   width: 100%;
-  height: 85%;
 }
 .mainSection .topStories section h4 {
   font-size: 18px;
   font-family: "Domine", serif;
   padding-bottom: 8px;
   font-weight: 700;
+}
+.mainSection .topStories section li {
+  list-style: none;
 }
 .mainSection .topStories section li, .mainSection .topStories section p {
   font-size: 16px;

@@ -70,7 +70,6 @@
     }
 
     .navLogoHeader {
-
       border-bottom: solid 1px #ebebeb;
       max-width: none;
       position: relative;
@@ -78,7 +77,8 @@
 
       .topHeader {
         position: absolute;
-        width: 99%;
+        padding: 0px;
+        width: 100%;
         height: 100%;
         .icons {
           position: absolute;
@@ -95,7 +95,8 @@
             display: none;
           }
           .profile {
-            margin-right: 10px;
+            margin-right: 20px;
+            margin-top: 3px;
             display: block;
             width: 16px;
             svg {
@@ -112,7 +113,7 @@
           padding-right: 10px;
           position: absolute;
           right: 0;
-          bottom: 18px;
+          bottom: 14px;
           button {
             color: #6288a5;
             background-color: white;
@@ -184,7 +185,6 @@
         padding-right: 0px;
         border-bottom: solid black 1px;
         margin-bottom: 2px;
-        
     }
     .mainSection .topStories section {
         width: auto;
@@ -208,16 +208,6 @@
         grid-template-rows: $opinionsGridSpacingRow;
       }
 
-      #topOpinion .contents:first-child::after {
-      content: '';
-      position: absolute;
-      top: 0px;
-      right: 0px;
-      bottom: 14px;
-      width: 1px;
-      background: rgb(226, 226, 226);
-      }
-
       #topOpinion .contents {
         padding-right: 15px;
         grid-column: 1 / 4;
@@ -226,6 +216,7 @@
         border-bottom: solid 1px #ebebeb;
 
         .contentsImg {
+          width: auto;
           height: 70%;
         }
       }
@@ -432,8 +423,7 @@
           padding-right: 20px;
         }
       }
-  }
-
+    }
   }
 
   //*********************************** SCREEN WIDTH: 740px ***********************************
@@ -448,6 +438,7 @@
     //***** Navbar *****
     .navLogoHeader {
       .topHeader {
+        padding: 0px;
         .icons {
           .hamburger {
             svg {
@@ -538,6 +529,63 @@
         #sectionSeven {
           padding-bottom: 0px;
         }
+
+        #sectionOne::after {
+          content: 'ADVERTISEMENT';
+          display: block;
+          background-color: #f7f7f7;
+          //height: 30px;
+          border-top: solid 1px #e2e2e2;
+          border-bottom: solid 1px #e2e2e2;
+
+          background-image: url("./uberAd.jpg");
+          background-position: center;
+          background-repeat: no-repeat;
+          background-size: 320px;
+          padding-top: 10px;
+          color: #9e9e9e;
+          text-align: center;
+          font-size: 10px;
+          height: 315px;
+        }
+
+        #sectionFour::after {
+          content: 'ADVERTISEMENT';
+          display: block;
+          background-color: #f7f7f7;
+          //height: 30px;
+          border-top: solid 1px #e2e2e2;
+          border-bottom: solid 1px #e2e2e2;
+
+          background-image: url("./airbnbAd.jpg");
+          background-position: center;
+          background-repeat: no-repeat;
+          background-size: 320px;
+          padding-top: 10px;
+          color: #9e9e9e;
+          text-align: center;
+          font-size: 10px;
+          height: 315px;
+        }
+
+        #sectionSeven::after {
+          content: 'ADVERTISEMENT';
+          display: block;
+          background-color: #f7f7f7;
+          //height: 30px;
+          border-top: solid 1px #e2e2e2;
+          border-bottom: solid 1px #e2e2e2;
+
+          background-image: url("./yoAd.png");
+          background-position: center;
+          background-repeat: no-repeat;
+          background-size: 320px;
+          padding-top: 10px;
+          color: #9e9e9e;
+          text-align: center;
+          font-size: 10px;
+          height: 315px;
+        }
         
         > :after {
           content: '';
@@ -547,6 +595,7 @@
           border-top: solid 1px #e2e2e2;
           border-bottom: solid 1px #e2e2e2;
         }
+        
       }
 
       //***** Opinions and Editors Picks Section *****
@@ -571,6 +620,11 @@
           display: block;
           padding-bottom: 0px;
           border-bottom: none;
+
+          #topOpinion .contents:first-child::after {
+            content: none;
+            
+            }
           
           >:nth-child(2) > :after {
             content: '';
@@ -614,9 +668,6 @@
               justify-content: space-between;
               padding-bottom: 10px;
               margin-bottom: 10px;
-              .contentsImg img {
-                width: 100%;
-              }
             }
             :last-child {
               margin-bottom: 0px;
@@ -629,11 +680,32 @@
         }
 
         //***** Editors Picks Section *****
+
+        .editorsPicks::after {
+          content: 'ADVERTISEMENT';
+          display: block;
+          background-color: #f7f7f7;
+          //height: 30px;
+          border-top: solid 1px #e2e2e2;
+          border-bottom: solid 1px #e2e2e2;
+
+          background-image: url("./uberAd.jpg");
+          background-position: center;
+          background-repeat: no-repeat;
+          background-size: 320px;
+          padding-top: 10px;
+          color: #9e9e9e;
+          text-align: center;
+          font-size: 10px;
+          height: 315px;
+        }
+
         .editorsPicks {
           display: flex;
           flex-direction: column;
           margin-top: 0px;
           border-top: none;
+          margin-bottom: 0px;
 
           header {
             padding-left: 20px;
@@ -699,6 +771,8 @@
             margin-bottom: 15px;
           }
           #thirdPick {
+            margin-bottom: 0px;
+            border-bottom: none;
             h4 {
               font-size: 18px;
               font-weight: 700;
