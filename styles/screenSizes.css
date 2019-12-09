@@ -452,6 +452,12 @@
   .mainSection .topStories section .smallerHeader h4, .mainSection .topStories section div .headerSubText h4 {
     font-size: 20px;
   }
+  .mainSection .topStories section #imgCaptionDiv p {
+    display: none;
+  }
+  .mainSection .topStories section #imgCaptionDiv span {
+    float: right;
+  }
   .mainSection .topStories #sectionSeven {
     padding-bottom: 0px;
   }

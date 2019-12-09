@@ -531,15 +531,23 @@ $libreFranklin: 'Libre Franklin';
                 line-height: 1.1875rem;
             }
 
-            .imgCaptionText {
+            #imgCaptionDiv {
+                margin: 0px;
+                margin-left: 0px;
+                margin-right: 0px;
+                min-width: 0;
+
+                p {
                 font-size: 12px;
                 color: gray;
-                margin-right: 4px;
                 margin-left: 0px;
                 line-height: normal;
+                }
                 span {
                     color: #ccc;
-                    padding-left: 3px;
+                    display: inherit;
+                    font-size: 12px;
+                    line-height: normal;
                 }
             }
         }

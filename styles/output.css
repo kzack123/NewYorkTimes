@@ -471,16 +471,23 @@
   color: #555555;
   line-height: 1.1875rem;
 }
-.mainSection .topStories section .imgCaptionText {
+.mainSection .topStories section #imgCaptionDiv {
+  margin: 0px;
+  margin-left: 0px;
+  margin-right: 0px;
+  min-width: 0;
+}
+.mainSection .topStories section #imgCaptionDiv p {
   font-size: 12px;
   color: gray;
-  margin-right: 4px;
   margin-left: 0px;
   line-height: normal;
 }
-.mainSection .topStories section .imgCaptionText span {
+.mainSection .topStories section #imgCaptionDiv span {
   color: #ccc;
-  padding-left: 3px;
+  display: inherit;
+  font-size: 12px;
+  line-height: normal;
 }
 .mainSection .topStories section:last-child {
   border: none;

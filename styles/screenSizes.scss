@@ -524,6 +524,14 @@
           .smallerHeader h4, div .headerSubText h4 {
             font-size: 20px;
           }
+          #imgCaptionDiv {
+            p {
+              display: none;
+            }
+            span {
+              float: right;
+            }
+          }
         }
 
         #sectionSeven {
