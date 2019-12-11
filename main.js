@@ -1621,28 +1621,6 @@ eval("__webpack_require__.r(__webpack_exports__);\n//converts NYTS byline texts 
 
 /***/ }),
 
-/***/ "./src/other.js":
-/*!**********************!*\
-  !*** ./src/other.js ***!
-  \**********************/
-/*! no static exports found */
-/***/ (function(module, exports) {
-
-eval("throw new Error(\"Module build failed: Error: ENOENT: no such file or directory, open 'C:\\\\Users\\\\crazy\\\\Desktop\\\\NewsWithWebpack\\\\app\\\\src\\\\other.js'\");//# sourceURL=[module]\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiLi9zcmMvb3RoZXIuanMuanMiLCJzb3VyY2VzIjpbXSwibWFwcGluZ3MiOiIiLCJzb3VyY2VSb290IjoiIn0=\n//# sourceURL=webpack-internal:///./src/other.js\n");
-
-/***/ }),
-
-/***/ "./src/test.js":
-/*!*********************!*\
-  !*** ./src/test.js ***!
-  \*********************/
-/*! no static exports found */
-/***/ (function(module, exports) {
-
-eval("throw new Error(\"Module build failed: Error: ENOENT: no such file or directory, open 'C:\\\\Users\\\\crazy\\\\Desktop\\\\NewsWithWebpack\\\\app\\\\src\\\\test.js'\");//# sourceURL=[module]\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiLi9zcmMvdGVzdC5qcy5qcyIsInNvdXJjZXMiOltdLCJtYXBwaW5ncyI6IiIsInNvdXJjZVJvb3QiOiIifQ==\n//# sourceURL=webpack-internal:///./src/test.js\n");
-
-/***/ }),
-
 /***/ "./src/timeElapsed.js":
 /*!****************************!*\
   !*** ./src/timeElapsed.js ***!
@@ -1656,15 +1634,13 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _cre
 /***/ }),
 
 /***/ 0:
-/*!*********************************************************!*\
-  !*** multi ./src/index.js ./src/test.js ./src/other.js ***!
-  \*********************************************************/
+/*!****************************!*\
+  !*** multi ./src/index.js ***!
+  \****************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-__webpack_require__(/*! ./src/index.js */"./src/index.js");
-__webpack_require__(/*! ./src/test.js */"./src/test.js");
-module.exports = __webpack_require__(/*! ./src/other.js */"./src/other.js");
+module.exports = __webpack_require__(/*! ./src/index.js */"./src/index.js");
 
 
 /***/ })
