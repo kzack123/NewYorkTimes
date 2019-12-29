@@ -83,7 +83,7 @@ $libreFranklin: 'Libre Franklin';
 
 //***** Small Side Navbar *****
 .smallSideNavbar {
-    left: -2200px;
+    left: -6200px;
     position: absolute;
     display: flex;
     top: 0px;
@@ -506,9 +506,13 @@ $libreFranklin: 'Libre Franklin';
                 min-width: 130px;
             }
 
+            :first-child {
+                margin-left: 0px;
+            }
+
             div {
                 margin-right: 6px;
-                margin-left: 8px;
+                margin-left: 4px;
             }
 
             img {
@@ -563,7 +567,7 @@ $libreFranklin: 'Libre Franklin';
 
 //***** Opinions And Editors Picks *****
 .opinionsAndEditorsPicks {
-    padding-left: 12px;
+    padding-left: 15px;
 
 //***** Opinions *****
     

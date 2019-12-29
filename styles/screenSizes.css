@@ -1,3 +1,25 @@
+@media screen and (min-width: 1460px) {
+  .navLogoHeader {
+    max-width: 1200px;
+    min-width: 1200px;
+  }
+
+  .briefingContainer {
+    max-width: 1200px;
+  }
+
+  .mainSection {
+    margin-right: 0px;
+    margin-left: 0px;
+  }
+  .mainSection .topStories {
+    max-width: 784px;
+    min-width: 784px;
+  }
+  .mainSection .opinionsAndEditorsPicks {
+    max-width: 385px;
+  }
+}
 @media screen and (max-width: 1160px) {
   .scrollDownNavbar ul {
     min-width: 970px;

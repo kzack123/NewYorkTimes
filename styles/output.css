@@ -27,7 +27,7 @@
 }
 
 .smallSideNavbar {
-  left: -2200px;
+  left: -6200px;
   position: absolute;
   display: flex;
   top: 0px;
@@ -449,9 +449,12 @@
 .mainSection .topStories section .headerSubText {
   min-width: 130px;
 }
+.mainSection .topStories section :first-child {
+  margin-left: 0px;
+}
 .mainSection .topStories section div {
   margin-right: 6px;
-  margin-left: 8px;
+  margin-left: 4px;
 }
 .mainSection .topStories section img {
   width: 100%;
@@ -494,7 +497,7 @@
 }
 
 .opinionsAndEditorsPicks {
-  padding-left: 12px;
+  padding-left: 15px;
 }
 .opinionsAndEditorsPicks header {
   display: flex;
