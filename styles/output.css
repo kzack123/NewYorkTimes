@@ -449,9 +449,6 @@
 .mainSection .topStories section .headerSubText {
   min-width: 130px;
 }
-.mainSection .topStories section :first-child {
-  margin-left: 0px;
-}
 .mainSection .topStories section div {
   margin-right: 6px;
   margin-left: 4px;
